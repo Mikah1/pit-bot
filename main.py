@@ -21,19 +21,8 @@ def run():
     #print(f'cmd /c "node {script} {targetign} {currentaccount} {currentproxy}"')
     os.system(f'cmd /c "node {script} {targetign} {currentaccount} {currentproxy}"')
 print("""
- ██░ ██  █    ██  ▄▄▄▄       ██▓    ▄▄▄       █    ██  ███▄    █  ▄████▄   ██░ ██ ▓█████  ██▀███  
-▓██░ ██▒ ██  ▓██▒▓█████▄    ▓██▒   ▒████▄     ██  ▓██▒ ██ ▀█   █ ▒██▀ ▀█  ▓██░ ██▒▓█   ▀ ▓██ ▒ ██▒
-▒██▀▀██░▓██  ▒██░▒██▒ ▄██   ▒██░   ▒██  ▀█▄  ▓██  ▒██░▓██  ▀█ ██▒▒▓█    ▄ ▒██▀▀██░▒███   ▓██ ░▄█ ▒
-░▓█ ░██ ▓▓█  ░██░▒██░█▀     ▒██░   ░██▄▄▄▄██ ▓▓█  ░██░▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░▓█ ░██ ▒▓█  ▄ ▒██▀▀█▄  
-░▓█▒░██▓▒▒█████▓ ░▓█  ▀█▓   ░██████▒▓█   ▓██▒▒▒█████▓ ▒██░   ▓██░▒ ▓███▀ ░░▓█▒░██▓░▒████▒░██▓ ▒██▒
- ▒ ░░▒░▒░▒▓▒ ▒ ▒ ░▒▓███▀▒   ░ ▒░▓  ░▒▒   ▓▒█░░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒ ░ ░▒ ▒  ░ ▒ ░░▒░▒░░ ▒░ ░░ ▒▓ ░▒▓░
- ▒ ░▒░ ░░░▒░ ░ ░ ▒░▒   ░    ░ ░ ▒  ░ ▒   ▒▒ ░░░▒░ ░ ░ ░ ░░   ░ ▒░  ░  ▒    ▒ ░▒░ ░ ░ ░  ░  ░▒ ░ ▒░
- ░  ░░ ░ ░░░ ░ ░  ░    ░      ░ ░    ░   ▒    ░░░ ░ ░    ░   ░ ░ ░         ░  ░░ ░   ░     ░░   ░ 
- ░  ░  ░   ░      ░             ░  ░     ░  ░   ░              ░ ░ ░       ░  ░  ░   ░  ░   ░     
-                       ░                                         ░  
-                       
+ 
 CURRENT OPTIONS: GRINDER, HUNTER, HARDBOT, SILENTBOT, WDRBOT, APEALER, SPAMBOT
-COPYRIGHT : FREEMONEYHUB DISCORD.GG/PITBOTS (ALL FAGGOTS RESERVED)
 """)
 bottype=input("[?] ENTER OPTION : ")
 if bottype.lower()=="grinder":
