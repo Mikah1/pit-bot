@@ -118,7 +118,7 @@ bot.on('entityHurt', (entity) => {
 bot.on('messagestr', async (message) => {
   if (message.includes(`findstop`)) {
     if (bot.username === lobbyFinderIgn) {
-      console.log("[HuysBotta] debug > lobbyfinder disabled")
+      console.log("[Bot] debug > lobbyfinder disabled")
     }
     lobbyfinder = false;
   }
@@ -128,8 +128,8 @@ bot.on('messagestr', async (message) => {
   if (message.includes(`findstart`)) {
     if (bot.username === lobbyFinderIgn) {
       bot.chat("/lobby");
-      console.log("[HuysBotta] /l");
-      console.log("[HuysBotta] debug > lobbyfinder enabled")
+      console.log("[Bot] /l");
+      console.log("[Bot] debug > lobbyfinder enabled")
     }
     lobbyfinder = true;
   }
@@ -162,14 +162,14 @@ bot.on('messagestr', async (message) => {
             lobbycount = Object.keys(bot.players).length
             if (bot.username === lobbyFinderIgn) {
               if (lobbycount <= DeadLobbyPlayerCount) {
-                console.log('[HuysBotta] Dead lobby found with ' + lobbycount + ' players')
+                console.log('[Bot] Dead lobby found with ' + lobbycount + ' players')
                 hook.send('Dead lobby found with ' + lobbycount + ' players <@278650752832897025>');
                 bot.chat(`/p transfer ${targetign}`)
                 lobbyfound = true
                 lobbyfinder = false;
               } else {
                 bot.chat("/play pit")
-                console.log('[HuysBotta] /play pit (' + lobbycount + ' players)')
+                console.log('[Bot] /play pit (' + lobbycount + ' players)')
               }
             }
           }
